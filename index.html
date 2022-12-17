@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div id="center">
+        <form id="content">
+            <label id="nickLab" for="nick">Nickname</label>
+            <input type="text" id="nick" name="nick" placeholder="Nickname" required>
+
+            <label id="passLab" for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="Password" required>
+
+            <label id="repPassLab" for="rep">Repeat Password</label>
+            <input type="password" id="rep" name="rep" placeholder="Repeat Password" required>
+            
+            <button id="btn">Submit</button>
+            <h3 class="error"></h3>
+        </form>
+        </div>
+    <script src="app.js"></script> 
+</body>
+</html>
